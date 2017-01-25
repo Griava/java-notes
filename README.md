@@ -32,6 +32,17 @@ Usage du mot clé `static`
 
 Usage du mot clé `abstract`
 
+Une class abstract a une particularité, on ne peut pas l'instancier.
+Elle est utilisée comme class héritière.
+Une méthode abstract ne peut être déclarée qu'avec une class abstract cependant une méthode abstract n'est pas obligatoire.
+
+Imaginons une class mère "Animal" avec une méthode abstract "manger"":
+
+```java
+abstract class Animal{
+    abstract void manger();
+}
+```
 ##Boucles
 
 ##Classes utilitaires
